@@ -1,0 +1,196 @@
+@import './common/colors';
+@import './common/base';
+
+
+
+body {
+  color: $primary;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+
+.h1 {
+  color: $accent;
+}
+h2{
+  color: #10c9c3;
+  font-size: 50px;
+}
+.header-nav{
+  background-color:$gray;
+
+  ul{
+    li{
+      a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #1d1d1d;
+        &:hover{
+          color: #10c9c3;
+        }
+      }
+    }
+  }
+}
+
+.banner{
+background-color: $gray;
+
+  .btn{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      color: #ffffff;
+      width: 180px;
+      height: 54px;
+      background-color: #10c9c3;
+      border-radius: unset;
+      margin:10px;
+      text-transform: uppercase;
+
+  }
+  .content-left{
+    margin-top: 150px;
+    @media screen and (max-width:900px) ,screen and (max-device-width:900px) {
+
+      margin-top: 30px;
+
+    }
+    h2{
+      font-size:35px;
+      color: #1d1d1d;
+      font-weight: 600;
+      text-align: left;
+      margin:10px;
+    }
+    p{
+      font-size: 16px;
+      color: #787878;
+      text-align: left;
+      margin:10px;
+    }
+  }
+}
+
+.about-us{
+  margin: 50px;
+  text-align: center;
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+  }
+  p{
+      font-family: Myriad Pro , sans-serif;
+      font-size: 16px;
+      color: #787878;
+
+  }
+}
+// Skill - Bar Start
+.skill-bar{
+  h3{
+      font-family: Montserrat ,sans-serif;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.5;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #000000;
+  }
+  h6{
+      text-transform: uppercase;
+      font-family: Montserrat , sans-serif;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.5;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #000000;
+  }
+  .progress{
+    height: 5px;
+    margin: 25px;
+    .progress-bar{
+      background-color: $button;
+    }
+  }
+}
+// Skill - Bar End
+// Counter Start
+.counter {
+  background-color:$button;
+  padding: 20px 0;
+}
+
+.count-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: block;
+  margin-left: auto;
+  text-align: left;
+}
+
+.count-text {
+  font-family: Montserrat , sans-serif ;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.fa-2x {
+  letter-spacing: 2.4px;
+  font-size: 40px;
+  text-align: left;
+  margin-right: 30px;
+  float: left;
+  color: #ffffff;
+}
+//Counter End
+.our-work{
+  margin: 50px;
+  text-align: center;
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+  }
+  p{
+    font-family: Myriad Pro , sans-serif;
+    font-size: 16px;
+    color: #787878;
+
+  }
+}
+.video-popup{
+    background-color:$gray;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+      color: #fff;
+      font-size: 100px;
+      transition: all 0.6s;
+      &:hover{
+        transform: scale(1.5);
+      }
+    }
+}
+
+footer{
+  height: 284px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
