@@ -1,6 +1,4 @@
-# Webpack Frontend Starterkit
-
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
+# Free Responsive Html TEMPLATE
 
 A lightweight foundation for your next webpack based frontend project.
 
